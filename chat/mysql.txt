@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `JavascriptUsers` (
+`id` int(11) NOT NULL,
+  `user_name` varchar(10) DEFAULT NULL,
+  `password_hash` varchar(255) DEFAULT NULL
+)
+
+ALTER TABLE `JavascriptUsers`
+ ADD PRIMARY KEY (`id`), ADD UNIQUE KEY `user_name` (`user_name`);
