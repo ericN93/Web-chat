@@ -1,6 +1,11 @@
 # Web-chat
 Project javaScript(web chat)
 #Installation
+**ChatBate**
+ ChatBate is a JavaScript/JQuery chat webbapplication which is using NodeJS and MySQL. The purpose of the chat is interact with new people about  web programming and get to know individualls that you maybe never have had interact with otherwise without ChateBate. There is an "General" chat where everyone can see all messages, the user can also use "Whisper" to send messages to one or more specific online users. When a user is reciving a whisper he/she can see which users got the message by pressing the "whisper"-button above the reciving whisper. 
+
+**Requirements**
+This application is a chat room for users to revisit again and again to continue interacting with new people, therefore there is an login/register system. You need NodeJS installed with a websocket module and a MySQL database the following columns: id, user_name, password_hash.
 
 **Change url**
 When you have downloaded ChateBate you have to enter chat/js/main.js and find
