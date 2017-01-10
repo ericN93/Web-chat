@@ -11,7 +11,7 @@ and fill in your domain for NodeJS
 You have to change port number of your choice in chat/websocket_chatserver.js which is on the top of the file `var port = 8022;`, you also have to change var `WebSocketServer = require('Path').server` to the path of the websocket module for NodeJS
 
 **Change originIsAllowed**
-You also have to made a change in function originIsAllowed(origin) change the value of origin to your url which is i "websocket_chatserver.js"
+You also have to made a change in function originIsAllowed(origin) change the value of origin to your url which is in "websocket_chatserver.js"
 
 **MySQL database**
 You will need MySQL code the set up the database, after that you need to navigate to chat/ajax/login.php and change the function connectToDb() and change "host", "dbname", "user_name" and "password" to your settings.
