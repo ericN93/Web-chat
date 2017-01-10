@@ -5,7 +5,7 @@ $_SESSION['success'] = false;
 $_SESSION['user'] = false;
 function connectToDb(){
 
-    $db = new PDO("mysql:host=host;dbname=dbname;", 'username', "password");
+    $db = new PDO("mysql:host=blu-ray.student.bth.se;dbname=erna13;", 'erna13', "8F77Kb5P7JnyZs7C");
     return $db;
 }
 

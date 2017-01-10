@@ -7,13 +7,16 @@
     <p>This application is a chat room for users to revisit again and again to continue interacting with new people, therefore there is an login/register system. You need NodeJS installed with a websocket module and a MySQL database the following columns: id, user_name, password_hash.</p>
 
     <h1>Installation</h1>
-    <p>You can get the chat here which is stored in the "ChateBate" folder ?here?</p>
+    <p>You can get the chat here which is stored in the "chat" folder <a href=https://github.com/ericN93/Web-chat>here</a>
+    </p>
 
     <p>when you have downloaded ChateBate you have to enter chat/js/main.js and find
         "var url = 'ws://nodejs1.student.bth.se:8022'"
         and fill in your domain for NodeJS </p>
 
     <p>You have to change port number of your choice in chat/websocket_chatserver.js which is on the top of the file "var port = 8022;", you also have to change var WebSocketServer = require('Path').server to the path of the websocket module for NodeJS </p>
+
+    <p>You also have to made a change in function originIsAllowed(origin) change the value of origin to your url which is i "websocket_chatserver.js"</p>
 
     <p>You will need <a href=http://www.student.bth.se/~erna13/dbwebb-kurser/javascript/me/kmom10/chat/mysql.txt>this</a> MySQL code the set up the database, after that you need to navigate to chat/ajax/login.php and change the function connectToDb() and change "host", "dbname", "user_name" and "password" to your settings.
     </p>
