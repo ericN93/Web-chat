@@ -18,7 +18,7 @@ colorArray=[
 ];
 
 
-var WebSocketServer = require('/home/saxon/students/20132/erna13/node_modules/websocket').server;
+var WebSocketServer = require('PATH').server;
 var http = require('http');
 
 //Create a http server with a callback for each request
